@@ -5,4 +5,4 @@ MediHeart is a simple pet shop website. It is a responsive. I made this website 
 
 ## Website Output
 
-You can view this website from [here](https://pet-care.vercel.app/)!
+You can view this website from [here](https://pet-care-one.vercel.app/)!
