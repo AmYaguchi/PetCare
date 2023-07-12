@@ -1,0 +1,83 @@
+:root{
+    --green: rgb(0, 128, 0);
+    --orange: rgb(200, 132, 7);
+    --black: #1e1e1f;
+    --white: rgb(255, 255, 255);
+    --light-color: #666;
+    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --border: .2rem solid rgba(0,0,0,1);
+    --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+    --outline: .1rem solid rgba(0,0,0,1);
+}
+
+.pricing .pricelist{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing .pricelist .columns{
+    width: 33.3%;
+    padding: 8px;
+    text-align: center;
+}
+  
+.headers{
+    /* width: 33.3%; */
+    padding: .8em;
+    background-color: #111;
+    color: white;
+    font-size: 2.5rem;
+    z-index: 1;
+    text-align: center;
+    place-items: center;
+} 
+
+
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+ 
+.price li{
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  .price .grey {
+    background-color: #eee;
+    font-size: 2rem;
+  }
+
+  .price .offers{
+    font-size: 1.5rem;
+  }
+  
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5rem;
+    font-size: 2rem;
+  }
+  @media only screen and (max-width: 700px) {
+    .pricing .pricelist {
+      flex-direction: column;
+    }
+    .pricing .pricelist .columns{
+        width: 100%;
+    }
+  }
